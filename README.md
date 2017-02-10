@@ -14,6 +14,10 @@
 
 # Google QPX Express API Key
 
+First of all you have to enter and login in https://console.developers.google.com/apis/dashboard. 
+Then enter to "Library" on the left side of the page. Search 'QPX Express Airfare API' and enable it. Then, go to 'Credentials'
+click to 'Create Credentials'->'API Key' copy 'key' and click to the 'Restrict Key'.
+
 /application/config/config.development.php
 
 	'GPX_API_KEY' => ''
