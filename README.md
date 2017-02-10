@@ -12,13 +12,15 @@
 	define('DB_PREFIX','prefix'); // Prefix of the tables
 ---------------------------------
 
-/application/config/config.development.php
-
 # Google QPX Express API Key
+
+/application/config/config.development.php
 
 	'GPX_API_KEY' => ''
 
 # MongoDB configuration
+
+/application/config/config.development.php
 
 	'MONGODB_HOST' => '127.0.0.1:27017',
 	'MONGODB_NAME' => 'tickets_com',
@@ -58,10 +60,7 @@ $router->route('search/:request/:request', 'tickets/result', array('request', 'r
 ---------------------------------------------
 /application/libs/TicketAPI.php
 
+	public static function SearchTickets() {.....} // Request to API 
+	public static function simpleSlice(){.....} // Build slice 
 
-Request to API 
-	public static function SearchTickets() {.....}
-Build slice 
-	public static function simpleSlice(){.....}
-
-As soon as posilble 
+Full documentation will be published as soon as posibible
