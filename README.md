@@ -1,10 +1,8 @@
 # Google QPX Express API Advanced - PHP, MySQL, MongoDB
 
----------------------------------------------
-/config.php 
----------------------------------------------
-
 # Database configuration
+
+/config.php
 
 	define('DB_TYPE', 'mysql'); // Database type
 	define('DB_HOST', 'localhost'); // Database host
@@ -12,10 +10,9 @@
 	define('DB_USER', 'user_name'); // Database username
 	define('DB_PASS', 'password'); // Database password
 	define('DB_PREFIX','prefix'); // Prefix of the tables
+---------------------------------
 
----------------------------------------------
 /application/config/config.development.php
----------------------------------------------
 
 # Google QPX Express API Key
 
@@ -27,10 +24,10 @@
 	'MONGODB_NAME' => 'tickets_com',
 
 ---------------------------------------------
-/application/config/settings.php
----------------------------------------------
 
 # Router configuration
+
+/application/config/settings.php
 
 $router->route('requested/url', 'controller/action');
 
