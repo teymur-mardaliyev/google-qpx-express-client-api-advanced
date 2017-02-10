@@ -6,12 +6,12 @@
 
 # Database configuration
 
-define('DB_TYPE', 'mysql'); // Database type
+`define('DB_TYPE', 'mysql'); // Database type
 define('DB_HOST', 'localhost'); // Database host
 define('DB_NAME', 'database_name'); // Database name
 define('DB_USER', 'user_name'); // Database username
 define('DB_PASS', 'password'); // Database password
-define('DB_PREFIX','prefix'); // Prefix of the tables
+define('DB_PREFIX','prefix'); // Prefix of the tables`
 
 ---------------------------------------------
 /application/config/config.development.php
