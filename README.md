@@ -42,7 +42,7 @@ $router->route('requested/url', 'controller/action');
     ":keyword" => '(.+)', // everthing
     ":request" => '([a-z0-9]{32})', // only alpha-numeric and max 32 characters
 
-Also urls can be checked and pass to variables by router
+Also urls can be checked and they can be passed to variables by router
 
 $router->route('search/:request/:request', 'tickets/result', array('request', 'result_id'));
 
