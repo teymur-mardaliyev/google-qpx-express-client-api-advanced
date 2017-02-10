@@ -6,12 +6,12 @@
 
 # Database configuration
 
-`define('DB_TYPE', 'mysql'); // Database type
-define('DB_HOST', 'localhost'); // Database host
-define('DB_NAME', 'database_name'); // Database name
-define('DB_USER', 'user_name'); // Database username
-define('DB_PASS', 'password'); // Database password
-define('DB_PREFIX','prefix'); // Prefix of the tables`
+	`define('DB_TYPE', 'mysql'); // Database type
+	define('DB_HOST', 'localhost'); // Database host
+	define('DB_NAME', 'database_name'); // Database name
+	define('DB_USER', 'user_name'); // Database username
+	define('DB_PASS', 'password'); // Database password
+	define('DB_PREFIX','prefix'); // Prefix of the tables`
 
 ---------------------------------------------
 /application/config/config.development.php
@@ -52,16 +52,14 @@ $router->route('search/:request/:request', 'tickets/result', array('request', 'r
     
 
 # Insert Data to Databases
-
 ---------------------------------------------
 /application/libs/TicketsLogger.php
----------------------------------------------
+
 
 # Request to GOOGLE QPX Express API 
-
 ---------------------------------------------
 /application/libs/TicketAPI.php
----------------------------------------------
+
 
 Request to API `public static function SearchTickets() {.....}`
 Build slice `public static function simpleSlice(){.....}
