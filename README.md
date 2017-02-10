@@ -45,7 +45,8 @@ Also urls can be checked and pass to variables by router
 $router->route('search/:request/:request', 'tickets/result', array('request', 'result_id'));
 
     `search` is slug
-    `:request` - its will be checked and will be pass to variable by router. This variable can be called and used everywhere by `Router::get('request');`
+    `:request` - its will be checked and will be pass to variable by router. 
+    This variable can be called and used everywhere by `Router::get('request');
     
 
 # Insert Data to Databases
