@@ -46,12 +46,12 @@ $router->route('requested/url', 'controller/action');
     ":keyword" => '(.+)', // everthing
     ":request" => '([a-z0-9]{32})', // only alpha-numeric and max 32 characters
 
-Also urls can be checked and they can be passed to variables by router
+Also urls can be checked and passed to variables by router
 
 $router->route('search/:request/:request', 'tickets/result', array('request', 'result_id'));
 
     `search` is slug
-    `:request` - its will be checked and will be pass to variable by router. 
+    `:request` - its will be checked and will be passed to variable by router. 
     This variable can be called and used everywhere by `Router::get('request');
     
 
@@ -67,4 +67,4 @@ $router->route('search/:request/:request', 'tickets/result', array('request', 'r
 	public static function SearchTickets() {.....} // Request to API 
 	public static function simpleSlice(){.....} // Build slice 
 
-Full documentation will be published as soon as posibible
+Documentation will be published as soon as posibible
