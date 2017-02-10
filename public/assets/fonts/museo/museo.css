@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Museo100-Regular';
+    src: url('100/Museo100-Regular.eot');
+    src: url('100/Museo100-Regular.eot?#iefix') format('embedded-opentype'),
+    url('100/Museo100-Regular.woff2') format('woff2'),
+    url('100/Museo100-Regular.woff') format('woff'),
+    url('100/Museo100-Regular.ttf') format('truetype'),
+    url('100/Museo100-Regular.svg#Museo100-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo300-Regular';
+    src: url('300/Museo300-Regular.eot');
+    src: url('300/Museo300-Regular.eot?#iefix') format('embedded-opentype'),
+    url('300/Museo300-Regular.woff2') format('woff2'),
+    url('300/Museo300-Regular.woff') format('woff'),
+    url('300/Museo300-Regular.ttf') format('truetype'),
+    url('300/Museo300-Regular.svg#Museo100-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo500-Regular';
+    src: url('500/Museo500-Regular.eot');
+    src: url('500/Museo500-Regular.eot?#iefix') format('embedded-opentype'),
+    url('500/Museo500-Regular.woff2') format('woff2'),
+    url('500/Museo500-Regular.woff') format('woff'),
+    url('500/Museo500-Regular.ttf') format('truetype'),
+    url('500/Museo500-Regular.svg#Museo100-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo700-Regular';
+    src: url('700/Museo700-Regular.eot');
+    src: url('700/Museo700-Regular.eot?#iefix') format('embedded-opentype'),
+    url('700/Museo700-Regular.woff2') format('woff2'),
+    url('700/Museo700-Regular.woff') format('woff'),
+    url('700/Museo700-Regular.ttf') format('truetype'),
+    url('700/Museo700-Regular.svg#Museo100-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo900-Regular';
+    src: url('900/Museo900-Regular.eot');
+    src: url('900/Museo900-Regular.eot?#iefix') format('embedded-opentype'),
+    url('900/Museo900-Regular.woff2') format('woff2'),
+    url('900/Museo900-Regular.woff') format('woff'),
+    url('900/Museo900-Regular.ttf') format('truetype'),
+    url('900/Museo900-Regular.svg#Museo100-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
