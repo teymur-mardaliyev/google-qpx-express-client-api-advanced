@@ -3,7 +3,6 @@
 # Database configuration
 
 /config.php
-	<?php 
 	define('DB_TYPE', 'mysql'); // Database type
 	define('DB_HOST', 'localhost'); // Database host
 	define('DB_NAME', 'database_name'); // Database name
@@ -19,13 +18,13 @@ Then enter to "Library" on the left side of the page. Search 'QPX Express Airfar
 click to 'Create Credentials'->'API Key' copy 'key' and click to the 'Restrict Key'.
 
 /application/config/config.development.php
-	<?php 
+
 	'GPX_API_KEY' => ''
 
 # MongoDB configuration
 
 /application/config/config.development.php
-	<?php 
+
 	'MONGODB_HOST' => '127.0.0.1:27017',
 	'MONGODB_NAME' => 'tickets_com',
 
@@ -38,7 +37,7 @@ click to 'Create Credentials'->'API Key' copy 'key' and click to the 'Restrict K
 	$router->route('requested/url', 'controller/action');
 
 # Router regex
-    <?php 
+    
     ":a" => '(\w+)', // only alphabet 
     ":n" => '(\d+)', // only numeric
     ":slug" => '([a-z0-9_-]+)', // alpha-numeric and symbols - _
