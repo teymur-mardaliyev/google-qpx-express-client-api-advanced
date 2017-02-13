@@ -3,6 +3,7 @@
 # Database configuration
 
 /config.php
+
 	define('DB_TYPE', 'mysql'); // Database type
 	define('DB_HOST', 'localhost'); // Database host
 	define('DB_NAME', 'database_name'); // Database name
