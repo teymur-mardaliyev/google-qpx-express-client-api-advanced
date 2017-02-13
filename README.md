@@ -1,6 +1,6 @@
 # Google QPX Express API Advanced - PHP, MySQL, MongoDB
 
-# Database configuration
+### Database configuration
 
 /config.php
 
@@ -12,7 +12,7 @@
 	define('DB_PREFIX','prefix'); // Prefix of the tables
 ---------------------------------
 
-# Google QPX Express API Key
+### Google QPX Express API Key
 
 First of all you have to enter and login in https://console.developers.google.com/apis/dashboard. 
 Then enter to "Library" on the left side of the page. Search 'QPX Express Airfare API' and enable it. Then, go to 'Credentials'
@@ -22,7 +22,7 @@ click to 'Create Credentials'->'API Key' copy 'key' and click to the 'Restrict K
 
 	'GPX_API_KEY' => ''
 
-# MongoDB configuration
+### MongoDB configuration
 
 /application/config/config.development.php
 
@@ -31,13 +31,13 @@ click to 'Create Credentials'->'API Key' copy 'key' and click to the 'Restrict K
 
 ---------------------------------------------
 
-# Router configuration
+### Router configuration
 
 /application/config/settings.php
 	<?php 
 	$router->route('requested/url', 'controller/action');
 
-# Router regex
+### Router regex
     
     ":a" => '(\w+)', // only alphabet 
     ":n" => '(\d+)', // only numeric
@@ -55,12 +55,12 @@ $router->route('search/:request/:request', 'tickets/result', array('request', 'r
     This variable can be called and used everywhere by `Router::get('request');
     
 
-# Insert Data to Databases
+### Insert Data to Databases
 ---------------------------------------------
 /application/libs/TicketsLogger.php
 
 
-# Request to GOOGLE QPX Express API 
+### Request to GOOGLE QPX Express API 
 ---------------------------------------------
 /application/libs/TicketAPI.php
 
